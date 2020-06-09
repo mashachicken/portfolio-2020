@@ -4,9 +4,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  @media only screen and (min-width: 479px) {
+    navLinksLeft{
+      display: none
+    }
+  }

@@ -3,6 +3,23 @@ import { Link } from "react-router-dom";
 
 function Header(){
   const navLinksLeft = {
+    display: '-webkit-box',
+    display: '-webkit-flex',
+    display: '-ms-flexbox',
+    display: 'flex',
+    width: '30%',
+    marginRight: '0px',
+    marginBottom: '5%',
+    marginLeft: '0px',
+    paddingRight: '0%',
+    paddingLeft: '0px',
+    clear: 'left',
+    listStyleType: 'none',
+  }
+  const link1 = {
+
+  }
+  const navBar = {
     position: 'fixed',
     display: '-webkit-flex',
     display: '-ms-flexbox',
@@ -34,29 +51,27 @@ function Header(){
     gridTemplateColumns: '1fr 1fr',
     gridTemplateRows: 'auto auto',
     msGridRows: 'auto auto',
-    textAlign: 'center',
-
-  }
-  const list1 = {
-
-  }
-  const navLinks = {
-
+    textAlign: 'center'
   }
   const navLink = {
-    textDecoration: 'none'
+    textDecoration: 'none',
+    paddingRight: '40px'
   }
   const navLink2 = {
-    textDecoration: 'none'
-  }
-  const list2 = {
+    textDecoration: 'none',
+    paddingRight: '40px',
+    color: '#000000'
 
   }
-  const list3 = {
+  const link2 = {
 
+  }
+  const link3 = {
   }
   const navLink3 = {
-    textDecoration: 'none'
+    textDecoration: 'none',
+    paddingRight: '40px',
+    color: '#000000'
   }
 
   const heading = {
@@ -64,6 +79,7 @@ function Header(){
     display: '-webkit-fle',
     display: '-ms-flexbox',
     display: 'flex; width: 25%',
+    width: '25%',
     margin: '0px 10% 5%',
     WebkitBoxOrient: 'horizontal',
     WebkitBoxDirection: 'normal',
@@ -87,23 +103,37 @@ function Header(){
     textDecoration: 'none'
   }
   const navLinksRight = {
+    display: '-webkit-box',
+    display: '-webkit-flex',
+    display: '-ms-flexbox',
+    display: 'flex',
+    marginBottom: '5%',
+    WebkitFlex: '0 auto',
+    WebkitBoxFlex: '0',
+    msFlex: '0 auto',
+    listStyleType: 'none'
 
   }
-  const list4 = {
+  const navLink4 = {
+    textDecoration: 'none',
+    paddingRight: '40px'
+  }
 
+  const link4 = {
+    paddingRight: '40px'
   }
 
   return (
     <React.Fragment>
-      <div style={navLinks}>
-        <ul style={navLinksLeft}>
-          <li style={list1}> <Link to='/about' style={navLink}> About </Link> </li>
-          <li style={list2}> <Link to='/projects' style={navLink2}> Projects </Link> </li>
-          <li style={list3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
+      <div style={navBar}>
+        <ul style={navLinksLeft} class='navLinksLeft'>
+          <li style={link1}> <Link to='/about' style={navLink2}> About </Link> </li>
+          <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
+          <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
         </ul>
         <a href='/' style={heading} title='Homepage'> <h6 style={heading}> Masha Ivy </h6></a>
         <ul style={navLinksRight}>
-          <li style={list4}> <a href='https://www.linkedin.com/in/masha-ivy/'> L </a> </li>
+          <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
         </ul>
       </div>
     </React.Fragment>
