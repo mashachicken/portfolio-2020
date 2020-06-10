@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './Header'
+import Burger from './Burger'
+import MobileMenue from './MobileMenue'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -11,6 +13,8 @@ function App() {
   return (
       <Router>
         <Header/>
+        <Burger/>
+        <MobileMenue/>
         <Switch>
           <Route path='/about'>
             <About/>

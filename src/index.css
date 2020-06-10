@@ -13,8 +13,19 @@ code {
     monospace;
 }
 
-  @media only screen and (min-width: 479px) {
-    navLinksLeft{
-      display: none
+  @media only screen and (max-width: 480px) {
+
+    #navBar {
+      display: none !important;
     }
+
+    .burgerButton {
+      display: flex !important;
+    }
+
+    .mobileNav {
+      display: flex !important;
+    }
+
+
   }

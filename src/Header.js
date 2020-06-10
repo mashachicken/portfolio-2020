@@ -55,7 +55,8 @@ function Header(){
   }
   const navLink = {
     textDecoration: 'none',
-    paddingRight: '40px'
+    paddingRight: '40px',
+    color: '#000000'
   }
   const navLink2 = {
     textDecoration: 'none',
@@ -100,7 +101,8 @@ function Header(){
     fontFamily: 'Montserrat, sans-serif',
     fontSize: '25px',
     fontWeight: '400',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    color: '#000000'
   }
   const navLinksRight = {
     display: '-webkit-box',
@@ -111,12 +113,13 @@ function Header(){
     WebkitFlex: '0 auto',
     WebkitBoxFlex: '0',
     msFlex: '0 auto',
-    listStyleType: 'none'
+    listStyleType: 'none',
 
   }
   const navLink4 = {
     textDecoration: 'none',
-    paddingRight: '40px'
+    paddingRight: '40px',
+    color: '#000000'
   }
 
   const link4 = {
@@ -125,14 +128,14 @@ function Header(){
 
   return (
     <React.Fragment>
-      <div style={navBar}>
-        <ul style={navLinksLeft} class='navLinksLeft'>
+      <div style={navBar} id='navBar'>
+        <ul style={navLinksLeft} id='navLinksLeft'>
           <li style={link1}> <Link to='/about' style={navLink2}> About </Link> </li>
           <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
           <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
         </ul>
         <a href='/' style={heading} title='Homepage'> <h6 style={heading}> Masha Ivy </h6></a>
-        <ul style={navLinksRight}>
+        <ul style={navLinksRight} id='navLinksRight'>
           <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
         </ul>
       </div>
