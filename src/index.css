@@ -4,8 +4,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-right: 2%;
-  margin-left: 2%;
+  margin-right: 2% !important;
+  margin-left: 2% !important;
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover
 }
 
 code {

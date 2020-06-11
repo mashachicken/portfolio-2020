@@ -7,15 +7,14 @@ function Header(){
     display: '-webkit-flex',
     display: '-ms-flexbox',
     display: 'flex',
-    width: '30%',
-    marginRight: '0px',
+    width: '22%',
+    paddingRight: '17%',
     marginBottom: '5%',
-    marginLeft: '0px',
-    paddingRight: '0%',
     paddingLeft: '0px',
-    clear: 'left',
-    listStyleType: 'none',
+    paddingLeft: '0px',
+    listStyleType: 'none'
   }
+
   const link1 = {
 
   }
@@ -68,25 +67,29 @@ function Header(){
 
   }
   const link3 = {
+
   }
   const navLink3 = {
     textDecoration: 'none',
-    paddingRight: '40px',
     color: '#000000'
   }
 
   const heading = {
+    marginBottom: '4%',
+    marginTop: '2%',
+    position: 'static',
     display: '-webkit-box',
     display: '-webkit-fle',
     display: '-ms-flexbox',
-    display: 'flex; width: 25%',
-    width: '25%',
-    margin: '0px 10% 5%',
+    display: 'flex',
+    marginLeft: '15%',
+    marginRight: '15%',
     WebkitBoxOrient: 'horizontal',
     WebkitBoxDirection: 'normal',
     WebkitFlexDirection: 'row',
     msFlexDirection: 'row',
     flexDirection: 'row',
+    msFlexAlign: 'end',
     WebkitAlignSelf: 'auto',
     msFlexItemAlign: 'auto',
     alignSelf: 'auto',
@@ -115,15 +118,23 @@ function Header(){
     msFlex: '0 auto',
     listStyleType: 'none',
 
+    marginTop: '2%',
+
+
+
+
+    paddingLeft: '3%'
+
+
+
   }
+
   const navLink4 = {
     textDecoration: 'none',
-    paddingRight: '40px',
-    color: '#000000'
+    color: '#000000',
   }
 
   const link4 = {
-    paddingRight: '40px'
   }
 
   return (
@@ -134,7 +145,7 @@ function Header(){
           <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
           <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
         </ul>
-        <a href='/' style={heading} title='Homepage'> <h6 style={heading}> Masha Ivy </h6></a>
+        <a href='/' style={heading} title='Homepage'> <p> Masha Ivy </p></a>
         <ul style={navLinksRight} id='navLinksRight'>
           <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
         </ul>
