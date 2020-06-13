@@ -8,41 +8,75 @@ function MobileMenue() {
     textTransform: 'uppercase',
     padding: '2rem 0',
     fontWeight: 'bold',
-    letterSpacing: '0.5rem',
+    letterSpacing: '0.3rem',
     textDecoration: 'none',
     transition: 'color 0.3s linear',
     color: 'black'
   }
 
   const mobileNav = {
-    display: 'none',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    height: '100vh',
-    textAlign: 'left',
-    padding: '2rem',
-    position: 'absolute',
-    top: '0',
-    left: '0',
-    transition: 'transform 0.3s ease-in-out'
+    display: 'none'
   }
 
   const headName = {
-    fontSize: '1rem',
+    whiteSpace: 'nowrap',
     textTransform: 'uppercase',
     fontWeight: 'bold',
     letterSpacing: '0.5rem',
     textDecoration: 'none',
     transition: 'color 0.3s linear',
-    color: 'black'
+    color: 'black',
+    position: 'fixed',
+    display: '-webkit-flex',
+    display: '-ms-flexbox',
+    display: 'flex',
+    width: '92%',
+    marginTop: '2%',
+    marginRight: '2%',
+    marginLeft: '2%',
+    WebkitBoxOrient: 'horizontal',
+    WebkitFlexDirection: 'row',
+    msFlexDirection: 'row',
+    flexDirection: 'row',
+    WebkitBoxPack: 'center',
+    WebkitJustifyContent: 'center',
+    msFlexPack: 'center',
+    justifyContent: 'center',
+    WebkitFlexWrap: 'wrap',
+    msFlexWrap: 'wrap',
+    flexWrap: 'wrap',
+    WebkitBoxAlign: 'end',
+    WebkitAlignItems: 'flex-end',
+    msFlexAlign: 'end',
+    alignItems: 'flex-end',
+    gridAutoColumns: '1fr',
+    gridColumnGap: '16px',
+    gridRowGap: '16px',
+    textAlign: 'center'
+
   }
 
   const navLinksLeft = {
-
+    flexDirection: 'column',
+    justifyContent: 'center',
     listStyleType: 'none',
+    height: '100vh',
+    background: '#b8b8b8',
+    position: 'absolute',
+    padding: '2rem',
     padding: '0',
-    zIndex: '10'
+    width: '120px',
+    textAlign: 'left',
+    zIndex: '-1',
+    paddingTop: '50%',
+    lineHeight: '79px',
+    transition: 'transform 0.3s ease-in-out'
   }
+
+  const name = {
+
+  }
+
 
 return (
   <React.Fragment>
@@ -51,12 +85,10 @@ return (
         <li> <Link to='/about' style={link}> About </Link> </li>
         <li> <Link to='/projects' style={link}> Projects </Link> </li>
         <li> <Link to='/contact' style={link}> Contact </Link> </li>
-      </ul>
-      <a href='/' title='Homepage' style={headName}> <h6> Masha Ivy </h6></a>
-      <ul id='navLinksRight'>
         <li> <a href='https://www.linkedin.com/in/masha-ivy/' style={link}> L </a> </li>
       </ul>
-    </div>
+      <a href='/' title='Homepage' style={headName}> <h6 style={name}> Masha Ivy </h6></a>
+      </div>
   </React.Fragment>
 );
 }

@@ -5,6 +5,7 @@ function Burger() {
     position: 'absolute',
     top: '5%',
     left: '2rem',
+    zIndex: '1',
     display: 'none',
     flexDirection: 'column',
     justifyContent: 'space-around',
@@ -13,8 +14,7 @@ function Burger() {
     background: 'transparent',
     border: 'none',
     cursor: 'pointer',
-    padding: '0',
-    zIndex: '10'
+    padding: '0'
   }
 
   const div = {
