@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './Header'
 import Burger from './Burger'
 import MobileMenue from './MobileMenue'
@@ -10,11 +10,12 @@ import './App.css';
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
       <Router>
         <Header/>
-        <Burger/>
-        <MobileMenue/>
+        <Burger open={open} setOpen={setOpen}/>
+        <MobileMenue open={open} setOpen={setOpen}/>
         <Switch>
           <Route path='/about'>
             <About/>
