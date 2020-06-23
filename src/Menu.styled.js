@@ -23,9 +23,10 @@ export const StyledMenu = styled.nav`
     text-transform: uppercase;
     padding: 2rem 0;
     font-weight: bold;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
     color: #0D0C1D;
     text-decoration: none;
+    list-style: none;
     transition: color 0.3s linear;
 
     &:hover {
@@ -33,9 +34,18 @@ export const StyledMenu = styled.nav`
     }
   }
 
-.headName {
-   margin-left: 100%
-}
+  .headName {
+    float: right
+  }
+
+  ul {
+    list-style: none;
+
+  }
+
+  ul li {
+    width: 5cm;
+  }
   ul li a i {
     background: #205D7A;
     color: #fff;
@@ -49,6 +59,8 @@ export const StyledMenu = styled.nav`
   .fa-linkedin {
     background:#007bb6 !important
   }
+
+
 
 }
 @media only screen and (min-width: 480px) {

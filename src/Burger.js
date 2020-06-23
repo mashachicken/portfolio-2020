@@ -5,6 +5,7 @@ import { StyledBurger } from './Burger.styled';
 
 const Burger = ({ open, setOpen }) => {
 
+
   // const burgerStyle = {
     //   position: 'absolute',
     //   top: '5%',
@@ -32,11 +33,11 @@ const Burger = ({ open, setOpen }) => {
       // }
         return (
           <StyledBurger open={open} onClick={() => setOpen(!open)}>
-          <div className="mobileBurger">
+
             <div/>
             <div/>
             <div/>
-          </div>
+
           </StyledBurger>
         )
       }
