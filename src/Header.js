@@ -117,16 +117,8 @@ function Header(){
     WebkitBoxFlex: '0',
     msFlex: '0 auto',
     listStyleType: 'none',
-
     marginTop: '2%',
-
-
-
-
     paddingLeft: '3%'
-
-
-
   }
 
   const navLink4 = {

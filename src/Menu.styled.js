@@ -21,7 +21,6 @@ export const StyledMenu = styled.nav`
   a {
     font-size: 0.8rem;
     text-transform: uppercase;
-    padding: 2rem 0;
     font-weight: bold;
     letter-spacing: 0.1rem;
     color: #0D0C1D;
@@ -35,23 +34,21 @@ export const StyledMenu = styled.nav`
   }
 
   .headName {
-    float: right
+
   }
 
   ul {
     list-style: none;
-
   }
 
   ul li {
     width: 5cm;
   }
+
   ul li a i {
     background: #205D7A;
     color: #fff;
-    width: 20px;
-    height: 20px;
-    padding-left: 2px;
+    padding-left: 1px;
     font-size: 17px;
     text-align: center;
   }
@@ -59,7 +56,6 @@ export const StyledMenu = styled.nav`
   .fa-linkedin {
     background:#007bb6 !important
   }
-
 
 
 }
