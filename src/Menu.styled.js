@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 export const StyledMenu = styled.nav`
@@ -11,18 +10,21 @@ export const StyledMenu = styled.nav`
   height: 100vh;
   text-align: left;
   padding: 2rem;
+  margin-left: -15%;
   position: absolute;
   top: 0;
   width: 50%;
+  z-index: 1;
   font-size: 1.5rem;
   left: 0;
+  color: #cec9c9 !important;
   transition: transform 0.3s ease-in-out;
 
   a {
     font-size: 0.8rem;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     color: #0D0C1D;
     text-decoration: none;
     list-style: none;
@@ -34,6 +36,10 @@ export const StyledMenu = styled.nav`
   }
 
   .headName {
+    margin-top: -50%;
+    margin-bottom: 30%;
+    border-bottom: 1.5px solid white;
+    margin-left: -7%;
 
   }
 
@@ -47,16 +53,29 @@ export const StyledMenu = styled.nav`
 
   ul li a i {
     background: #205D7A;
-    color: #fff;
-    padding-left: 1px;
+    color: #cec9c9;
+    padding-left: 2px;
     font-size: 17px;
     text-align: center;
   }
 
   .fa-linkedin {
-    background:#007bb6 !important
+    background:#007bb6;
   }
 
+  .fa-envelope {
+    background:#007bb6;
+  }
+
+  .social {
+    display: flex;
+    padding-top: 45%;
+    padding-left: 10px;
+  }
+
+  .linkedin {
+    width: 50px;
+  }
 
 }
 @media only screen and (min-width: 480px) {

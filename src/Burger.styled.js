@@ -4,12 +4,12 @@ export const StyledBurger = styled.button`
   @media only screen and (max-width: 480px) {
     position: absolute;
     top: 5%;
-    left: 2rem;
+    left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -21,11 +21,11 @@ export const StyledBurger = styled.button`
   }
 
   div {
-    width: 2rem;
-    height: 0.25rem;
-    background: black;
+    width: 21px;
+    height: 0.15rem;
+    background: #cec9c9;
     border-radius: 10px;
-    transition: all 0.3s linear;
+    transition: all 0.2s linear;
     position: relative;
     transform-origin: 1px;
 

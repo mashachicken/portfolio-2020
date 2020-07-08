@@ -15,6 +15,7 @@ function App() {
   const node = useRef();
 useOnClickOutside(node, () => setOpen(false));
   return (
+    <div className='background'>
       <Router>
         <Header/>
         <div ref={node}>
@@ -33,6 +34,7 @@ useOnClickOutside(node, () => setOpen(false));
           </Route>
         </Switch>
     </Router>
+    </div>
   );
 }
 

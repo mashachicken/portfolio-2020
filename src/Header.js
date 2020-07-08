@@ -8,11 +8,11 @@ function Header(){
     display: '-ms-flexbox',
     display: 'flex',
     width: '22%',
-    paddingRight: '17%',
     marginBottom: '5%',
     paddingLeft: '0px',
     paddingLeft: '0px',
-    listStyleType: 'none'
+    listStyleType: 'none',
+    fontSize: '16px'
   }
 
   const link1 = {
@@ -50,17 +50,18 @@ function Header(){
     gridTemplateColumns: '1fr 1fr',
     gridTemplateRows: 'auto auto',
     msGridRows: 'auto auto',
-    textAlign: 'center'
+    textAlign: 'center',
+    zIndex: '1'
   }
   const navLink = {
     textDecoration: 'none',
     paddingRight: '40px',
-    color: '#000000'
+    color: '#cec9c9'
   }
   const navLink2 = {
     textDecoration: 'none',
     paddingRight: '40px',
-    color: '#000000'
+    color: '#cec9c9',
 
   }
   const link2 = {
@@ -71,7 +72,8 @@ function Header(){
   }
   const navLink3 = {
     textDecoration: 'none',
-    color: '#000000'
+    color: '#cec9c9',
+    paddingRight: '40px'
   }
 
   const heading = {
@@ -101,12 +103,18 @@ function Header(){
     WebkitFlex: '1',
     msFlex: '1',
     flex: '1',
-    fontFamily: 'Montserrat, sans-serif',
-    fontSize: '25px',
-    fontWeight: '400',
+    fontWeight: 'bold',
     textDecoration: 'none',
-    color: '#000000'
+
   }
+
+  const name = {
+    color: '#cec9c9',
+    fontSize: '20px',
+    marginLeft: '10%',
+    marginRight: '10%'
+  }
+
   const navLinksRight = {
     display: '-webkit-box',
     display: '-webkit-flex',
@@ -118,12 +126,13 @@ function Header(){
     msFlex: '0 auto',
     listStyleType: 'none',
     marginTop: '2%',
-    paddingLeft: '3%'
+    fontSize: '16px',
   }
 
   const navLink4 = {
     textDecoration: 'none',
-    color: '#000000',
+    color: '#cec9c9',
+    paddingLeft: '40px',
   }
 
   const link4 = {
@@ -137,7 +146,7 @@ function Header(){
           <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
           <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
         </ul>
-        <a href='/' style={heading} title='Homepage'> <p> Masha Ivy </p></a>
+        <a href='/' style={heading} title='Homepage'> <p style={name}> MASHA IVY</p></a>
         <ul style={navLinksRight} id='navLinksRight'>
           <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
         </ul>
