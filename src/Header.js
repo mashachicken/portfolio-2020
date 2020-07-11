@@ -77,15 +77,14 @@ function Header(){
   }
 
   const heading = {
-    marginBottom: '4%',
     marginTop: '2%',
+    marginBottom: '5%',
     position: 'static',
     display: '-webkit-box',
     display: '-webkit-fle',
     display: '-ms-flexbox',
     display: 'flex',
-    marginLeft: '15%',
-    marginRight: '15%',
+    marginLeft: '25%',
     WebkitBoxOrient: 'horizontal',
     WebkitBoxDirection: 'normal',
     WebkitFlexDirection: 'row',
@@ -105,14 +104,16 @@ function Header(){
     flex: '1',
     fontWeight: 'bold',
     textDecoration: 'none',
-
+    color: '#cec9c9',
+    fontSize: '20px',
+    listStyleType: 'none'
   }
 
   const name = {
     color: '#cec9c9',
     fontSize: '20px',
-    marginLeft: '10%',
-    marginRight: '10%'
+    listStyleType: 'none',
+    textDecoration: 'none'
   }
 
   const navLinksRight = {
@@ -146,7 +147,9 @@ function Header(){
           <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
           <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
         </ul>
-        <a href='/' style={heading} title='Homepage'> <p style={name}> MASHA IVY</p></a>
+        <ul style={heading}>
+          <li> <Link to='/' style={name} title='Homepage'> MASHA IVY</Link> </li>
+        </ul>
         <ul style={navLinksRight} id='navLinksRight'>
           <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
         </ul>

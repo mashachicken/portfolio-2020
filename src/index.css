@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "spacegrotesk-regular";
+  font-family: "spacegrotesk-bold";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-right: 2% !important;
@@ -17,11 +17,11 @@ body {
 }
 
 @font-face {
-font-family: "spacegrotesk-regular";
-src: url("/fonts/spacegrotesk-regular-webfont.woff");
+font-family: "spacegrotesk-bold";
+src: url("/fonts/spacegrotesk-bold-webfont.woff");
 src:
-url("/fonts/spacegrotesk-regular-webfont.woff") format("woff"),
-url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
+url("/fonts/spacegrotesk-bold-webfont.woff") format("woff"),
+url("/fonts/spacegrotesk-bold-webfont.woff2") format("woff2")
 }
 
 .background:after {
@@ -30,7 +30,7 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
   content: "";
   height: 400%;
   left: -50%;
-  opacity: 0.7;
+
   position: fixed;
   top: -150%;
   width: 300%;

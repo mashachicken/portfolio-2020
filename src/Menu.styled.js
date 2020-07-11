@@ -6,26 +6,23 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #EFFFFA;
+  background: #cec9c9;
   height: 100vh;
   text-align: left;
   padding: 2rem;
   margin-left: -15%;
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 100%;
   z-index: 1;
-  font-size: 1.5rem;
   left: 0;
-  color: #cec9c9 !important;
+  color: black !important;
   transition: transform 0.3s ease-in-out;
 
   a {
-    font-size: 0.8rem;
     text-transform: uppercase;
-    font-weight: bold;
     letter-spacing: 0.2rem;
-    color: #0D0C1D;
+    color: black;
     text-decoration: none;
     list-style: none;
     transition: color 0.3s linear;
@@ -36,11 +33,15 @@ export const StyledMenu = styled.nav`
   }
 
   .headName {
-    margin-top: -50%;
+    margin-top: -20%;
     margin-bottom: 30%;
-    border-bottom: 1.5px solid white;
+    border-bottom: 1.5px solid rgba(100, 100, 100, 0.3);
     margin-left: -7%;
+    font-size: 1.8rem;
+  }
 
+  .masha {
+    font-size: 1.5rem;
   }
 
   ul {
@@ -49,6 +50,8 @@ export const StyledMenu = styled.nav`
 
   ul li {
     width: 5cm;
+    font-size: 1.6rem;
+
   }
 
   ul li a i {
@@ -60,11 +63,11 @@ export const StyledMenu = styled.nav`
   }
 
   .fa-linkedin {
-    background:#007bb6;
+    background: rgba(0, 123, 182, 0.8);
   }
 
   .fa-envelope {
-    background:#007bb6;
+    background: rgba(0, 123, 182, 0.8);
   }
 
   .social {
