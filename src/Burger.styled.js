@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledBurger = styled.button`
   @media only screen and (max-width: 480px) {
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 1rem;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ export const StyledBurger = styled.button`
     width: 21px;
     height: 0.15rem;
     background: #cec9c9;
-    border: black;
+    outline: solid 0.5px;
     border-radius: 10px;
     transition: all 0.2s linear;
     position: relative;

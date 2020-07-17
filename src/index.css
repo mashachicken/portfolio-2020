@@ -6,14 +6,13 @@ body {
   margin-right: 2% !important;
   margin-left: 2% !important;
   background-position: 0px 0px, 0px 0px;
-  background-color: black;
   color: #cec9c9;
   font-family: "spacegrotesk-regular" !important;
+
 }
 
 .background {
   height: 100vh;
-  background-color: black;
 }
 
 @font-face {
@@ -30,10 +29,10 @@ url("/fonts/spacegrotesk-bold-webfont.woff2") format("woff2")
   content: "";
   height: 400%;
   left: -50%;
-
   position: fixed;
   top: -150%;
   width: 300%;
+  z-index: -1;
 }
 
 @keyframes grain {
@@ -64,5 +63,38 @@ url("/fonts/spacegrotesk-bold-webfont.woff2") format("woff2")
       display: flex !important;
     }
 
+
+  }
+
+  @media only screen and (max-width: 843px) {
+    .name {
+
+        white-space: nowrap !important;
+
+    }
+    .heading {
+      margin-left: -15%;
+    }
+  }
+
+  @media only screen and (min-width: 481px) {
+    .heading {
+      margin-left: -60%
+  }
+}
+
+  @media only screen and (max-width: 585px) {
+    .heading {
+      font-size: 20px !important;
+      white-space: nowrap !important;
+    }
+    .navLinksRight {
+      font-size: 15px !important;
+
+    }
+
+    .navLinksLeft {
+      font-size: 15px !important;
+    }
 
   }

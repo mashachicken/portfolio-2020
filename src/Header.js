@@ -12,7 +12,7 @@ function Header(){
     paddingLeft: '0px',
     paddingLeft: '0px',
     listStyleType: 'none',
-    fontSize: '16px'
+    fontSize: '20px'
   }
 
   const link1 = {
@@ -72,8 +72,7 @@ function Header(){
   }
   const navLink3 = {
     textDecoration: 'none',
-    color: '#cec9c9',
-    paddingRight: '40px'
+    color: '#cec9c9'
   }
 
   const heading = {
@@ -84,7 +83,7 @@ function Header(){
     display: '-webkit-fle',
     display: '-ms-flexbox',
     display: 'flex',
-    marginLeft: '25%',
+    marginLeft: '20%',
     WebkitBoxOrient: 'horizontal',
     WebkitBoxDirection: 'normal',
     WebkitFlexDirection: 'row',
@@ -105,15 +104,16 @@ function Header(){
     fontWeight: 'bold',
     textDecoration: 'none',
     color: '#cec9c9',
-    fontSize: '20px',
+    fontSize: '30px',
     listStyleType: 'none'
   }
 
   const name = {
     color: '#cec9c9',
-    fontSize: '20px',
+    fontSize: '25px',
     listStyleType: 'none',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    opacity: '.4'
   }
 
   const navLinksRight = {
@@ -127,7 +127,8 @@ function Header(){
     msFlex: '0 auto',
     listStyleType: 'none',
     marginTop: '2%',
-    fontSize: '16px',
+    fontSize: '20px',
+    paddingLeft: '0px'
   }
 
   const navLink4 = {
@@ -142,15 +143,15 @@ function Header(){
   return (
     <React.Fragment>
       <div style={navBar} id='navBar'>
-        <ul style={navLinksLeft} id='navLinksLeft'>
+        <ul style={navLinksLeft} className='navLinksLeft'>
           <li style={link1}> <Link to='/about' style={navLink2}> About </Link> </li>
           <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
+        </ul>
+        <ul style={heading} className='name'>
+          <li> <Link to='/' style={name} className='heading' title='Homepage'> MASHA IVY</Link> </li>
+        </ul>
+        <ul style={navLinksRight} className='navLinksRight'>
           <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
-        </ul>
-        <ul style={heading}>
-          <li> <Link to='/' style={name} title='Homepage'> MASHA IVY</Link> </li>
-        </ul>
-        <ul style={navLinksRight} id='navLinksRight'>
           <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
         </ul>
       </div>

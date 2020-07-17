@@ -33,15 +33,17 @@ export const StyledMenu = styled.nav`
   }
 
   .headName {
-    margin-top: -20%;
+    margin-top: 10%;
     margin-bottom: 30%;
     border-bottom: 1.5px solid rgba(100, 100, 100, 0.3);
     margin-left: -7%;
     font-size: 1.8rem;
+    text-align: center;
   }
 
   .masha {
     font-size: 1.5rem;
+    padding-bottom: 10px;
   }
 
   ul {
@@ -60,24 +62,30 @@ export const StyledMenu = styled.nav`
     padding-left: 2px;
     font-size: 17px;
     text-align: center;
+
   }
 
   .fa-linkedin {
-    background: rgba(0, 123, 182, 0.8);
+    background: rgb(0, 123, 182);
   }
 
   .fa-envelope {
-    background: rgba(0, 123, 182, 0.8);
+  
   }
 
   .social {
     display: flex;
-    padding-top: 45%;
-    padding-left: 10px;
+    padding-top: 35%;
+
   }
 
   .linkedin {
-    width: 50px;
+ margin-right: -35%;
+  }
+
+  .email {
+
+
   }
 
 }
