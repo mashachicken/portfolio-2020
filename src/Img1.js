@@ -1,19 +1,20 @@
 import React from 'react';
 
 
-function MainContent() {
+function Img1() {
   const pic = {
     zIndex: '1',
     background: 'none',
-    marginTop: '15%'
+    marginTop: '15%',
+    position: 'relative'
   }
 
   const img = {
     marginTop: '-3%',
-    marginRight: '10%',
-    width: '33%',
+    marginRight: '8%',
+    width: '440px',
     height: '540px',
-    zIndex: '1',
+    zIndex: '-1',
     float: 'right',
   }
 
@@ -21,11 +22,11 @@ function MainContent() {
     <React.Fragment>
       <div>
         <figure style={pic} className='picture'>
-          <img src='/art.jpg' style={img}/>
+          <img src='/art.jpg' style={img} className='img'/>
         </figure>
       </div>
     </React.Fragment>
   )
 }
 
-export default MainContent
+export default Img1

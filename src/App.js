@@ -6,7 +6,8 @@ import MobileMenue from './MobileMenue'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
-import MainContent from './MainContent'
+import Img1 from './Img1'
+import HeroContent from './HeroContent'
 import logo from './logo.svg';
 import './App.css';
 import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -23,7 +24,8 @@ useOnClickOutside(node, () => setOpen(false));
         <Burger open={open} setOpen={setOpen}/>
         <MobileMenue open={open} setOpen={setOpen}/>
         </div>
-        <MainContent/>
+        <Img1/>
+        <HeroContent/>
         <Switch>
           <Route path='/projects'>
             <Projects/>
