@@ -19,12 +19,11 @@ function Header(){
 
   }
   const navBar = {
-    position: 'fixed',
     display: '-webkit-flex',
     display: '-ms-flexbox',
     display: 'flex',
     width: '92%',
-    marginTop: '2%',
+    marginTop: '1%',
     marginRight: '2%',
     marginLeft: '2%',
     WebkitBoxOrient: 'horizontal',
@@ -51,7 +50,7 @@ function Header(){
     gridTemplateRows: 'auto auto',
     msGridRows: 'auto auto',
     textAlign: 'center',
-    zIndex: '1'
+    zIndex: '5'
   }
   const navLink = {
     textDecoration: 'none',
@@ -135,6 +134,7 @@ function Header(){
     textDecoration: 'none',
     color: '#cec9c9',
     paddingLeft: '40px',
+
   }
 
   const link4 = {

@@ -1,9 +1,8 @@
 import React from 'react';
 
 
-function Img1() {
+function Img3() {
   const pic = {
-    zIndex: '1',
     background: 'none',
     position: 'relative'
   }
@@ -21,11 +20,11 @@ function Img1() {
     <React.Fragment>
       <div>
         <figure style={pic} className='picture'>
-          <img src='/art.jpg' style={img} className='img'/>
+          <img src='/art3.jpg' style={img} className='img'/>
         </figure>
       </div>
     </React.Fragment>
   )
 }
 
-export default Img1
+export default Img3

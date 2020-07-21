@@ -7,6 +7,7 @@ export const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #cec9c9;
+  opacity: 0.9;
   height: 100vh;
   text-align: left;
   padding: 2rem;
@@ -69,8 +70,13 @@ export const StyledMenu = styled.nav`
     background: rgb(0, 123, 182);
   }
 
+
+  .link {
+    text-align: center;
+  }
+
   .fa-envelope {
-  
+
   }
 
   .social {
@@ -84,7 +90,6 @@ export const StyledMenu = styled.nav`
   }
 
   .email {
-
 
   }
 

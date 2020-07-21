@@ -1,22 +1,22 @@
 import React from 'react';
 
 
-function Img1() {
+function HeroContent() {
   const fontStyle = {
-
-    width: '100%',
-    marginTop: '5%',
-    lineHeight: '120%',
+    marginTop: '10%',
+    lineHeight: '130%',
     zIndex: '2',
-    paddingLeft: '7%',
+    paddingLeft: '5%',
     position: 'absolute',
-    width: '75%',
-    fontSize: '45px',
+    width: '120%',
+    fontSize: '48px',
+    textShadow: '0 0 4px #CEC9C9, 0 0 20px rgba(206,201,201,0.42)'
 
   }
 
   const line2 ={
     opacity: '.7',
+    fontStyle: 'italic'
   }
 
   const line1 ={
@@ -25,6 +25,7 @@ function Img1() {
 
   const line3 ={
     opacity: '.7',
+    fontStyle: 'italic'
 
   }
 
@@ -41,4 +42,4 @@ function Img1() {
   )
 }
 
-export default Img1
+export default HeroContent
