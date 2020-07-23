@@ -2,11 +2,7 @@ import React from 'react';
 
 
 function Img3() {
-  const pic = {
-    background: 'none',
-    position: 'relative'
-  }
-
+  
   const img = {
     marginTop: '0%',
     marginRight: '2px',
@@ -19,8 +15,8 @@ function Img3() {
   return (
     <React.Fragment>
       <div>
-        <figure style={pic} className='picture'>
-          <img src='/art3.jpg' style={img} className='img'/>
+        <figure className='picture'>
+          <img src='/art3.jpg' style={img} className='img3'/>
         </figure>
       </div>
     </React.Fragment>

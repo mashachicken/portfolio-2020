@@ -68,10 +68,8 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
       width: 50% !important;
     }
     .fontStyle2 {
-      margin-top: 10cm !important;
-      margin-left: 55% !important;
+      margin-right: auto !important;
       font-size: 25px !important;
-      width: auto !important;
     }
 
     .img2 {
@@ -82,9 +80,6 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
     .name {
       white-space: nowrap !important;
 
-    }
-    .heading {
-      margin-left: -55% !important;
     }
 
     .fontStyle2 {
@@ -101,13 +96,21 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
     .img {
       width: 350px !important;
       height: 450px !important;
-      z-index: -1 !important;
     }
 
     .img2 {
       width: 350px !important;
       height: 450px !important;
-      z-index: -1 !important;
+    }
+
+    .img3 {
+      width: 350px !important;
+      height: 450px !important;
+    }
+
+    .img4 {
+      width: 350px !important;
+      height: 450px !important;
     }
   }
 
@@ -116,10 +119,6 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
     .fontStyle {
       width: 65% !important;
       font-size: 30px !important;
-    }
-
-    .heading {
-      margin-right: 50% !important;
     }
 
     .fontStyle2 {
@@ -167,9 +166,6 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
 
 
   @media only screen and (max-width: 480px) {
-    .heading {
-      margin-right: 100% !important;
-    }
 
     #navBar {
       display: none !important;
@@ -195,6 +191,16 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
     }
 
     .img2 {
+      width: 250px !important;
+      height: 350px !important;
+    }
+
+    .img3 {
+      width: 250px !important;
+      height: 350px !important;
+    }
+
+    .img4 {
       width: 250px !important;
       height: 350px !important;
     }

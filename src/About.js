@@ -4,7 +4,7 @@ import Img3 from './Img3'
 
 function About(){
 const about = {
-  lineHeight: '120%',
+  lineHeight: '130%',
   zIndex: '2',
   paddingLeft: '5%',
   width: '50%'

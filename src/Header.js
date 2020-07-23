@@ -60,8 +60,7 @@ function Header(){
   const navLink2 = {
     textDecoration: 'none',
     paddingRight: '40px',
-    color: '#cec9c9',
-
+    color: '#cec9c9'
   }
   const link2 = {
 
@@ -104,15 +103,16 @@ function Header(){
     textDecoration: 'none',
     color: '#cec9c9',
     fontSize: '30px',
-    listStyleType: 'none'
   }
 
   const name = {
     color: '#cec9c9',
-    fontSize: '25px',
+    whiteSpace: 'nowrap',
     listStyleType: 'none',
     textDecoration: 'none',
-    opacity: '.4'
+    opacity: '.4',
+    paddingRight: '40px',
+
   }
 
   const navLinksRight = {
@@ -144,15 +144,15 @@ function Header(){
     <React.Fragment>
       <div style={navBar} id='navBar'>
         <ul style={navLinksLeft} className='navLinksLeft'>
-          <li style={link1}> <Link to='/about' style={navLink2}> About </Link> </li>
-          <li style={link2}> <Link to='/projects' style={navLink}> Projects </Link> </li>
+        <li> <Link to='/' style={name} className='heading'  title='Homepage'> MASHA IVY</Link> </li>
+          <li style={link1}> <Link to='/about' style={navLink2}> about </Link> </li>
         </ul>
         <ul style={heading} className='name'>
-          <li> <Link to='/' style={name} className='heading' title='Homepage'> MASHA IVY</Link> </li>
+
         </ul>
         <ul style={navLinksRight} className='navLinksRight'>
-          <li style={link3}> <Link to='/contact' style={navLink3}> Contact </Link> </li>
-          <li style={link4}> <a href='https://www.linkedin.com/in/masha-ivy/' style={navLink4}> L </a> </li>
+          <li style={link2}> <Link to='/projects' style={navLink}> projects </Link> </li>
+          <li style={link3}> <Link to='/contact' style={navLink3}> contact </Link> </li>
         </ul>
       </div>
     </React.Fragment>

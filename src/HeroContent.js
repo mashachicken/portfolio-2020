@@ -4,11 +4,10 @@ import React from 'react';
 function HeroContent() {
   const fontStyle = {
     marginTop: '10%',
-    lineHeight: '130%',
+    lineHeight: '140%',
     zIndex: '2',
     paddingLeft: '5%',
     position: 'absolute',
-    width: '120%',
     fontSize: '48px',
     textShadow: '0 0 4px #CEC9C9, 0 0 20px rgba(206,201,201,0.42)'
 
@@ -29,14 +28,10 @@ function HeroContent() {
 
   }
 
-  const line4 ={
-  }
-
-
   return (
     <React.Fragment>
         <div style={fontStyle} className='fontStyle'>
-      <div style={line1}> Hello! I'm Masha, a creative web developer</div> <div style={line2}>  and designer from Portland, OR,</div> <div style={line3}> inspired to create innovative websites</div> <div style={line4}> with aesthetically pleasing designs.</div>
+      <div style={line1}> HELLO! I'M MASHA, A CREATIVE WEB DEVELOPER</div> <div style={line2}> AND DESIGNER FROM PORTLAND, OR,</div> <div style={line3}> INSPIRED TO CREATE INNOVATIVE WEBSITES</div> <div> WITH AESTHETICALLY PLEASING DESIGNS.</div>
           </div>
     </React.Fragment>
   )
