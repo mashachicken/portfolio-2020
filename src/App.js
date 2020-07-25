@@ -7,7 +7,6 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import Img1 from './Img1'
-import Circle from './Circle'
 import Img2 from './Img2'
 import Content2 from './Content2'
 import HeroContent from './HeroContent'
@@ -26,12 +25,10 @@ useOnClickOutside(node, () => setOpen(false));
         <div ref={node}>
         <Burger open={open} setOpen={setOpen}/>
         <MobileMenue open={open} setOpen={setOpen}/>
-        </div>
         <Switch>
         <Route exact path='/'>
         <Img1/>
         <HeroContent/>
-        <Circle/>
         <Img2/>
         <Content2/>
         </Route>
@@ -45,6 +42,7 @@ useOnClickOutside(node, () => setOpen(false));
             <Contact/>
           </Route>
         </Switch>
+        </div>
     </Router>
     </div>
   );

@@ -6,7 +6,7 @@ function Img2() {
   const img = {
     zIndex: '1',
     background: 'none',
-    marginTop: '50%',
+    top: '50vw',
     position: 'relative',
     paddingLeft: '5%',
     width: '450px',
