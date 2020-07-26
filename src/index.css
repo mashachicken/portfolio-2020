@@ -66,11 +66,11 @@ url("/fonts/spacegrotesk-regular-webfont.woff2") format("woff2")
     z-index: 1;
     width: 0px;
     animation: rotation 8s infinite linear;
-    height: 140px;
-    width: 140px;
+    height: 153px;
+    width: 150px;
     position: absolute;
     left: 6vw;
-    bottom: -1px;
+    bottom: 15px;
   }
 
   @keyframes rotation {

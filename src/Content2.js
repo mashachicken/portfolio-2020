@@ -9,7 +9,6 @@ function Content2() {
     position: 'relative',
     paddingRight: '10%',
     width: '46%',
-
     fontSize: '30px',
     paddingLeft: '2%'
   }

@@ -10,7 +10,6 @@ function Header(){
     width: '22%',
     marginBottom: '5%',
     paddingLeft: '0px',
-    paddingLeft: '0px',
     listStyleType: 'none',
     fontSize: '20px'
   }
