@@ -1,24 +1,20 @@
-import React from 'react';
-
+import React from "react";
 
 function Circle() {
+  const circle = {
+    height: "153px",
+    width: "150px",
+  };
 
-    const circle = {
-      height: '153px',
-      width: '150px'
-    }
-
-    const scroll = {
-
-    }
+  const scroll = {};
 
   return (
     <React.Fragment>
       <div className="scrolld" style={scroll}>
-        <img src='/masha-cirlce.png' style={circle}/>
+        <img src="/masha-cirlce.png" style={circle} />
       </div>
-      </React.Fragment>
-    )
-  }
+    </React.Fragment>
+  );
+}
 
-  export default Circle
+export default Circle;
