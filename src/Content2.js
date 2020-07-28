@@ -2,15 +2,15 @@ import React from "react";
 
 function Content2() {
   const fontStyle = {
-    marginTop: "15%",
+    top: "1000px",
     lineHeight: "130%",
     zIndex: "2",
     float: "right",
-    position: "relative",
-    paddingRight: "10%",
+    position: "absolute",
+    paddingRight: "1%",
     width: "46%",
     fontSize: "30px",
-    paddingLeft: "2%",
+    paddingLeft: "50%"
   };
 
   const font = {

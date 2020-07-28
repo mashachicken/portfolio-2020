@@ -4,7 +4,6 @@ import Header from "./Header";
 import Burger from "./Burger";
 import MobileMenue from "./MobileMenue";
 import About from "./About";
-import Projects from "./Projects";
 import Contact from "./Contact";
 import Img1 from "./Img1";
 import Img2 from "./Img2";
@@ -29,11 +28,8 @@ function App() {
             <Route exact path="/">
               <Img1 />
               <HeroContent />
-              <Img2 />
               <Content2 />
-            </Route>
-            <Route path="/projects">
-              <Projects />
+              <Img2 />
             </Route>
             <Route path="/about">
               <About />

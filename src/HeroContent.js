@@ -3,7 +3,7 @@ import Circle from './Circle'
 
 function HeroContent() {
   const fontStyle = {
-    marginTop: '10%',
+    top: '280px',
     lineHeight: '140%',
     zIndex: '2',
     paddingLeft: '5%',
@@ -18,10 +18,6 @@ function HeroContent() {
     fontStyle: 'italic'
   }
 
-  const line1 ={
-
-  }
-
   const line3 ={
     opacity: '.7',
     fontStyle: 'italic'
@@ -31,7 +27,7 @@ function HeroContent() {
   return (
     <React.Fragment>
         <div style={fontStyle} className='fontStyle'>
-      <div style={line1}> HELLO! I'M MASHA, A CREATIVE WEB DEVELOPER</div> <div style={line2}> AND DESIGNER FROM PORTLAND, OR,</div> <div style={line3}> INSPIRED TO CREATE INNOVATIVE WEBSITES</div> <div> WITH AESTHETICALLY PLEASING DESIGNS.</div>
+      <div> HELLO! I'M MASHA, A CREATIVE WEB DEVELOPER</div> <div style={line2}> AND DESIGNER FROM PORTLAND, OR,</div> <div style={line3}> INSPIRED TO CREATE INNOVATIVE WEBSITES</div> <div> WITH AESTHETICALLY PLEASING DESIGNS.</div>
           </div>
           <Circle/>
     </React.Fragment>

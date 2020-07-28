@@ -146,9 +146,9 @@ function Header() {
         <ul style={heading} className="name"></ul>
         <ul style={navLinksRight} className="navLinksRight">
           <li>
-            <Link to="/projects" style={navLink}>
+            <a href="https://github.com/mashachicken" style={navLink}>
               projects
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="/contact" style={navLink3}>

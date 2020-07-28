@@ -82,4 +82,5 @@ function Contact() {
     </React.Fragment>
   );
 }
+
 export default Contact;

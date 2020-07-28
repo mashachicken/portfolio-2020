@@ -6,8 +6,8 @@ function Img2() {
   const img = {
     zIndex: '1',
     background: 'none',
-    top: '50vw',
-    position: 'relative',
+    top: '900px',
+    position: 'absolute',
     paddingLeft: '5%',
     width: '450px',
     height: '540px',
