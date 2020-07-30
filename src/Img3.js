@@ -2,10 +2,11 @@ import React from 'react';
 
 
 function Img3() {
-  
+
   const img = {
     marginTop: '0%',
-    marginRight: '2px',
+    paddingLeft: '5%',
+    marginRight: '2%',
     width: '450px',
     height: '540px',
     zIndex: '-1',
