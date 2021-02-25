@@ -27,11 +27,10 @@ function About() {
     <React.Fragment>
       <Img3 />
       <div style={about} className="about">
-          <h2><i>Hello there!</i></h2><h3> Let me tell you a little bit about who I am.</h3>
+          <h2>Hello there!</h2><h3> Let me tell you a little bit about who I am.</h3>
           <div style={mainText}>
-           <div style={block}> I'm an <strong>insighful</strong> and
-          <strong> open minded</strong> individual that loves traveling, meeting
-          new diverse people, and writing <strong> code</strong>.</div>
+           <div style={block}> My name is Masha and I'm a Web Developer from Portland that loves traveling, meeting
+          new diverse people, and of course, writing <strong>code</strong>!</div>
           <div style={block}> While I've always been fascinated by tenchnology, it wasn't until a little over a year ago that discovered  my
           passion for <strong> coding</strong>. I started my path in a coding bootcamp in
           Portland, <strong> Epicodus</strong>. There, I learned to use the best

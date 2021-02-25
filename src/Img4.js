@@ -11,7 +11,7 @@ function Img4() {
   return (
     <React.Fragment>
       <div>
-          <img src='/art3.jpg' style={img} className='img4'/>
+          <img src='/art44.jpeg' style={img} className='img4'/>
       </div>
     </React.Fragment>
   )
