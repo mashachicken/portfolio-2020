@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-is my personal portfolio website written in React. This website is all about what I do, who I am and who I'm looking to become. Check it out and tell me what you think!
+This is my personal portfolio website written in React. This website is all about what I do, who I am and who I'm looking to become. Check it out and tell me what you think!
 
 ## FireBase 
 
